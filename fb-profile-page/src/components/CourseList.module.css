@@ -1,0 +1,24 @@
+.courseList {
+    list-style: none;
+    padding: 0;
+
+}
+
+.courseItem {
+    background-color: white;
+    border: 1px solid white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.courseItem:hover {
+    background-color: white;
+}
+
+.courseItem strong {
+    font-size: 1.2em;
+    color: black;
+}
